@@ -1,0 +1,165 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@1&display=swap');
+  
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.sidebar{
+   background-color: black;
+   color:white;
+   padding-left:50px;
+    width:40vw;
+    height:60vw;
+    width:160px;
+    float: left;
+}
+.sidebar nav{
+    padding:15px;
+    margin-top:10px;
+
+    
+}
+.sidebar nav li{
+    list-style:none;
+    font-size:20px;
+    padding:0px;
+    margin-top:20px;
+
+}
+.sidebar nav li a{
+    text-decoration:none;
+    color:white;
+    
+
+}
+
+
+.infocontainer{
+    
+    height:60vw;
+    width:84.5vw;
+
+    justify-content: space-around;
+    display:flex;
+    background-color:rgb(246, 246, 246);
+   
+}
+.devinfo{
+display:flex;
+width:100%;
+justify-content: center;
+flex-direction: column;
+
+
+}
+.hello{
+    font-size: 30px;
+    font-family: 'Source Code Pro', monospace;
+}
+.name{
+font-size:50px;
+}
+.about{
+   font-size: 20px;
+}
+
+.devpic img {
+    width:405px;
+    height: 27vw;
+    
+    align-items: center;
+    display:flex;
+  margin-top:180px;
+}
+.btn{
+    width:105px;
+    background-color: rgb(43, 80, 192);
+    border:none;
+    border-radius:5px;
+    margin-top:10px;
+    padding:7px;
+    align-items:center;
+    font-weight: bold;
+    cursor: pointer;
+    list-style:none; 
+    float:left;
+
+}
+
+    
+.btn li a{
+    color:rgb(247, 238, 238);
+    text-decoration:none;
+}
+ button:hover{
+ background-color:rgb(164, 152, 250);
+}
+.formcontainer{
+    border:1px solid black;
+    margin-top:60px;
+    width:35vw;
+    height:35vw;
+    justify-content:center;
+}
+.contact{
+    color:black;
+    font-size:30px;
+    margin:180px;
+    font-weight: bold;
+}
+.setlabel{
+    font-size: 15px;
+    font-weight:bold;
+    margin-left:140px;
+    
+    
+}
+.input-text{
+    
+}
+.intro-container{
+    font-size:15px;
+    font-family: sans-serif;
+    width:25%;
+    
+}
+.skill-container{
+    color:rgb(9, 22, 66);
+    width:500px;
+    margin-left:20px;
+    margin-top:5%;
+    
+}
+
+.skill{
+    width:80%;
+    height:13px;
+    background-color: rgb(212, 18, 18);
+    margin-left:50px;
+    
+}
+.skill-item{
+    display:flex;
+    margin-top:40px;
+}
+.html-per{
+    width:50px;
+    background-color:green;
+}
+@media (max-width: 1045px) {
+    *{
+        background-color:yellow;
+    }
+}
+.logo2{
+    width:170px;
+    height:100px;
+    margin:0;
+}
+.footer{
+    background-color: rgb(28, 43, 65);
+    height:300px;
+}
